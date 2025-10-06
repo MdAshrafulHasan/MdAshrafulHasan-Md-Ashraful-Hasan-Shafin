@@ -24,6 +24,41 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+.about-section {
+  background-color: #f8fafc;
+}
+
+.about-section .card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+}
+
+.about-section p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.about-section p.lead {
+  color: #333;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-section .card {
+    padding: 2rem 1.5rem;
+  }
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
